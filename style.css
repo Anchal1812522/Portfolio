@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body{
+   height: 100%;
+   width: 100%;
+   background: linear-gradient( to left, #0b2128, #061d25);
+}
+
+.header{
+    position: sticky;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100vw;
+    background-color: #09191f72;
+    backdrop-filter: blur(100px);
+    display: flex;
+}
+
+.logo{
+    color: rgb(191, 137, 1);
+    font-size: 28px;
+    margin: 8px;
+    font-style: italic;
+ }
+
+
+.menu{
+    display: flex;
+    margin-left: 61em;
+    margin-top: 1.4rem;
+    font-size: 14px;
+    gap: 5rem;
+    text-decoration: none;
+    font-style: none;
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(193, 79, 98);
+    font-style:inherit;
+}
+
+.menu a:hover{
+    color: aliceblue;
+}
+
+.sociicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 8rem;
+    margin-top: -2rem;
+}
+
+
+.soc1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    box-shadow: 5px 0px 25px 2px #04b7e4 , 0px 5px 25px 3px #6f0b53 , -5px -0px 25px 2px #02beec, -0px -5px 25px 2px  #6f0b53;
+}
+
+.soc2 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    box-shadow: 5px 0px 25px 2px #04b7e4 , 0px 5px 25px 3px #6f0b53 , -5px -0px 25px 2px #02beec, -0px -5px 25px 2px  #6f0b53; 
+}
+
+.soc3 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40%;
+    box-shadow:  5px 0px 25px 2px #04b7e4 , 0px 5px 25px 3px #6f0b53 , -5px -0px 25px 2px #02beec, -0px -5px 25px 2px  #6f0b53;
+}
+
+/*box2*/
+
+
+.info{
+    display: flex;
+    gap: 6rem;
+}
+
+.div{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 15em;
+    margin-top: 12rem;
+    border-top: 9px solid #0373a7;
+    border-bottom: 9px solid #0373a7;
+    border-right: 9px solid #a72381;
+    border-left: 9px solid #a72381;
+    box-shadow: 9px 0px 25px 9px #04b7e4 , 0px 16px 25px 9px #6f0b53 , -8px -0px 25px 9px #02beec, -0px -16px 25px 9px  #6f0b53;
+    border-radius: 50%;
+    background-color: #04aae7;
+    background-image: url("Adobe_Express_20240729_0807190.7472098246040938.png");
+    background-size: cover;
+}
+
+.heading{
+    color: whitesmoke;
+    margin-top: 15rem;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+span{
+    font-size: 35px;
+    color: rgb(249, 179, 3);
+}
+
+.para{
+    margin-top: 20rem;
+    margin-left: -22rem;
+    font-size: 23px;
+    font-style: oblique;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+/*box3*/
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heading2{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(4, 189, 189)
+}
+
+.para2{
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 9rem;
+}
+
+.img2{
+    height: 250px;
+    width: 250px;
+    margin-left: 9rem;
+    margin-top: 6rem;
+    border-top: 9px solid #0373a7;
+    border-bottom: 9px solid #0373a7;
+    border-right: 9px solid #a72381;
+    border-left: 9px solid #a72381;
+    box-shadow: 9px 0px 27px 9px #04b7e4 , 0px 16px 27px 9px #6f0b53 , -8px -0px 27px 9px #02beec, -0px -16px 27px 9px  #6f0b53;
+    border-radius: 25%;
+    background-color: #04aae7;
+    background-image: url("Adobe_Express_20240729_0807190.7472098246040938.png");
+    background-size: cover;
+}
+
+/*box4*/
+
+#tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 179, 3);
+    margin-top: 1rem;
+}
+
+.heading3{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(4, 189, 189)
+}
+
+.box1{
+    margin-top: 3rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.box2{
+    margin-top: 3rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.box3{
+    margin-top: 3rem;
+    text-align: center;
+    color: aliceblue; 
+}
+
+.div1{
+    height: 8px;
+    width: 30%;
+    margin-left: 33rem;
+    background-color: aliceblue;
+}
+
+
+.inndiv{
+   height: 8px;
+   background-color: #a72381;
+   width: 95%;
+}
+
+.icon1{
+    background-image: url("icon1_image.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 33rem;
+    border-radius: 30%;
+}
+
+.icon2{
+    background-image: url("icon2_image.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 33rem;
+    border-radius: 30%;
+}
+
+.icon3{
+    background-image: url("JavaScript-logo.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 33rem;
+    border-radius: 30%;
+}
+
+.div2{
+    height: 8px;
+    width: 30%;
+    margin-left: 33rem;
+    background-color: aliceblue; 
+}
+
+.inndiv2{
+    height: 8px;
+   background-color: #a72381;
+   width: 75%; 
+}
+
+
+
+.div3{
+    height: 8px;
+    width: 30%;
+    margin-left: 33rem;
+    background-color: aliceblue;
+}
+
+.inndiv3{
+    height: 8px;
+    background-color: #a72381;
+    width: 60%;
+}
+
+/*box5*/
+
+.heading4{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(4, 189, 189)
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}  
+
+.sign{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+}
+
+.sign1{
+    height: 50px;
+    width: 50px;
+    background-image: url("html_image.png");
+    background-size: cover;
+}
+
+.sign2{
+    height: 50px;
+    width: 50px;
+    background-image: url("app_image.avif");
+    object-fit: contain;
+    background-size: cover;
+}
+
+.sign3{
+    height: 50px;
+    width: 50px;
+    background-image: url("images.jpeg");
+    background-size: cover;
+}
+
+.pro1{
+    height: 250px;
+    width: 250px;
+    background-image: url("web_image.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+
+
+
+.pro2{
+    height: 250px;
+    width: 250px;
+    background-image: url("app_image.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.pro3{
+    height: 250px;
+    width: 250px;
+    background-image: url("game_image.jpg");
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.heading5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(4, 189, 189);
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
